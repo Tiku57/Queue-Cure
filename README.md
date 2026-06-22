@@ -61,17 +61,6 @@ graph TD
 
 ---
 
-## 📸 Screenshots
-
-*(Screenshots can be found in the `screenshots/` directory)*
-
-- **Reception Dashboard**: Instantly generate tokens, assign priorities, and overview the clinic.
-- **Doctor Workspace**: A live timer that dynamically turns from green to red based on efficiency targets.
-- **TV Display**: Sleek, Framer-Motion animated TV screen for the waiting room.
-- **Mobile Tracker**: An isolated, auto-updating view for individual patients.
-
----
-
 ## 🚀 Installation & Local Setup
 
 QueueCure uses an in-memory MongoDB server for development, so **no external database setup is required** to run it locally!
@@ -137,7 +126,3 @@ docker-compose up --build -d
 - **Aaditya Sattawan** ([@Tiku57](https://github.com/Tiku57)) - Lead Engineer & Architect
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
