@@ -26,6 +26,8 @@ In neighborhood clinics globally, the patient experience is broken. The reliance
 
 **QueueCure** is a production-grade, highly-scalable, real-time healthcare queue management platform. Built to support multi-clinic SaaS architecture, it empowers clinics with predictive wait-time AI, priority sorting, and mobile-first patient tracking.
 
+**🌟 Live Demo: [https://queue-cure-plum.vercel.app/](https://queue-cure-plum.vercel.app/)**
+
 ---
 
 ## ✨ Features
