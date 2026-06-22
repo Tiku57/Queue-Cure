@@ -31,7 +31,7 @@ export default function TVScreen() {
   }, [current?.tokenNumber]);
 
   return (
-    <div className="min-h-screen bg-[#0A0A0A] text-white flex flex-col p-4 md:p-8 overflow-y-auto lg:overflow-hidden overflow-x-hidden font-sans selection:bg-blue-500/30">
+    <div className="h-[100dvh] bg-[#0A0A0A] text-white flex flex-col p-4 md:p-8 overflow-hidden font-sans selection:bg-blue-500/30">
       {/* Header */}
       <header className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0 mb-6 lg:mb-12 border-b border-white/10 pb-4 lg:pb-6">
         <div className="flex items-center gap-3 lg:gap-4">
@@ -52,9 +52,9 @@ export default function TVScreen() {
         </div>
       </header>
 
-      <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10">
+      <div className="flex-1 flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-10 min-h-0">
         {/* Left Column - Current Token */}
-        <div className="lg:col-span-7 flex flex-col justify-center min-h-[45vh] lg:min-h-0">
+        <div className="flex-none h-[45%] lg:h-auto lg:col-span-7 flex flex-col justify-center">
           <AnimatePresence mode="wait">
             <motion.div
               key={current?.tokenNumber || 'empty'}
@@ -64,7 +64,7 @@ export default function TVScreen() {
               transition={{ duration: 0.5, type: 'spring' }}
               className="h-full"
             >
-              <Card className="bg-gradient-to-br from-slate-900 to-[#111] border-slate-800 h-full flex flex-col items-center justify-center p-8 lg:p-12 text-center shadow-2xl relative overflow-hidden group rounded-3xl">
+              <Card className="bg-gradient-to-br from-slate-900 to-[#111] border-slate-800 h-full flex flex-col items-center justify-center p-4 sm:p-8 lg:p-12 text-center shadow-2xl relative overflow-hidden group rounded-2xl lg:rounded-3xl">
                 {/* Ambient Background Glow */}
                 <div className="absolute inset-0 bg-blue-500/10 transition-opacity duration-1000" />
                 <div className="absolute -top-[50%] -left-[50%] w-[200%] h-[200%] bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.15),transparent_50%)] animate-pulse" />
@@ -77,7 +77,7 @@ export default function TVScreen() {
                   
                   {current ? (
                     <>
-                      <div className="text-[8rem] sm:text-[10rem] lg:text-[14rem] xl:text-[16rem] font-black leading-none text-white drop-shadow-[0_0_30px_rgba(59,130,246,0.4)] tracking-tighter">
+                      <div className="text-[6rem] sm:text-[8rem] md:text-[10rem] lg:text-[14rem] xl:text-[16rem] font-black leading-none text-white drop-shadow-[0_0_30px_rgba(59,130,246,0.4)] tracking-tighter">
                         {current.tokenNumber}
                       </div>
                       <div className="text-3xl lg:text-5xl text-slate-300 font-medium tracking-tight mt-4 lg:mt-8">
@@ -101,7 +101,7 @@ export default function TVScreen() {
         </div>
 
         {/* Right Column - Upcoming Queue */}
-        <div className="lg:col-span-5 flex flex-col gap-4 lg:gap-6 mt-6 lg:mt-0">
+        <div className="flex-1 min-h-0 lg:col-span-5 flex flex-col gap-4 lg:gap-6">
           <div className="flex items-center justify-between px-2">
             <h2 className="text-xl lg:text-2xl font-semibold text-slate-300 tracking-tight">Upcoming Tokens</h2>
             <div className="text-slate-500 font-medium tracking-wider text-xs lg:text-sm uppercase">Wait Time</div>
