@@ -4,13 +4,6 @@
   </p>
 
   <p align="center">
-    <a href="https://github.com/Tiku57/Queue-Cure/stargazers"><img src="https://img.shields.io/github/stars/Tiku57/Queue-Cure?style=for-the-badge&color=emerald" alt="Stars" /></a>
-    <a href="https://github.com/Tiku57/Queue-Cure/network/members"><img src="https://img.shields.io/github/forks/Tiku57/Queue-Cure?style=for-the-badge&color=blue" alt="Forks" /></a>
-    <a href="https://github.com/Tiku57/Queue-Cure/issues"><img src="https://img.shields.io/github/issues/Tiku57/Queue-Cure?style=for-the-badge&color=purple" alt="Issues" /></a>
-    <a href="https://github.com/Tiku57/Queue-Cure/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Tiku57/Queue-Cure?style=for-the-badge&color=orange" alt="License" /></a>
-  </p>
-
-  <p align="center">
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
     <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
     <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
