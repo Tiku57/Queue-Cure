@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="https://via.placeholder.com/1200x400/0f172a/ffffff?text=QueueCure+V2+-+Live+Clinic+Queue+Management" alt="QueueCure Banner" />
-
   <h1 align="center">QueueCure</h1>
   <p align="center">
     <strong>"Know your turn before it's your turn."</strong>
